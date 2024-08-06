@@ -1,0 +1,41 @@
+baseURL = "https://szclsya.me"
+languageCode = "en-us"
+DefaultContentLanguage = "zh-cn"
+title = "鸟梦月华之时"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = true
+    codeFences = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['$', '$']]
+
+
+
+[params]
+  description = "How dreadful... to be caught up in a game and have no idea of the rules."
+  author = "狷墨居主人"
+  math = true
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  # Used by notes
+  category = "category"
+
+[languages]
+  [languages.zh-cn]
+    weight = 1
+  [languages.en]
+    weight = 2

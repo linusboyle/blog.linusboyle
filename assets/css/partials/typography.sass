@@ -31,7 +31,7 @@ strong
   font-weight: 500
   white-space: nowrap
 
-em
+em:not(blockquote em)
   white-space: nowrap
 
 ol, ul
@@ -61,6 +61,8 @@ blockquote
 code
   font-family: $monospaceFonts
   padding: 0 .1em
+
+code:not(.highlight code)
   border-bottom: 2px solid 
 
 .verbatim

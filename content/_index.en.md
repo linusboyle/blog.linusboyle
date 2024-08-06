@@ -1,0 +1,18 @@
+---
+title: Index page
+date: 2019-09-22T22:56:41
+---
+
+{{< card info >}}
+使用右上角的翻译按钮切换到中文站点.
+{{< /card >}}
+
+Hello there!
+
+This is a little field of Leo on the magical Internet. 
+
+I will try to write down some interesting and unique aspects of my life here. As of the boring part, well, I believe you've seen enough of them.
+
+If you wish to see something I write, you can view them in [Posts](/posts). Or, you can also browse them in [Tags](/tags). If you are really boring, why not try to find some non-existing pages? Just in case there's something interesting. ;)
+
+Note that due to +my laziness+ and the practical difficulty of translating articles, some articles are, unfortunately, not translated (so, some only in Chinese, and some only in English). If you understand both languages, you may want to see article list of both languages to see everything I have to say.
